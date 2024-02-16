@@ -1,0 +1,95 @@
+
+body{
+    background-image: linear-gradient(to right, #ee0979, #ACB6E5);
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: "Honk", system-ui;
+}
+
+#btnDec{
+    font-size: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    background-image: linear-gradient( #ffffa7, #ff499e);
+    position: absolute;
+    top: 70%;
+    left: 39%;
+
+}
+
+#btnDec:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+#btnRestart{
+    font-size: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    background-image: linear-gradient( #ffffa7, #ff499e);
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+#btnRestart:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+#btnInc{
+    font-size: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    background-image: linear-gradient( #ffffa7, #ff499e);
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+#btnInc:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+#displayCount{
+    text-align: center;
+    font-size: 150px;
+    color: black;
+}
+
+@media only screen and (max-width: 760px)
+{
+    #btnDec{
+        left: 12%;
+    }
+
+    #btnRestart{
+        left: 39%;
+    }
+
+    #btnInc{
+        left:65%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:768px )
+{
+    #btnDec{
+        left: 30%;
+    }
+
+    #btnRestart{
+        left: 45%;
+    }
+
+    #btnInc{
+        left:60%;
+    }
+}
